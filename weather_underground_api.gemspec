@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = WeatherUndergroundApi::VERSION
   spec.authors       = ["thestelz"]
   spec.email         = ["stelzera24@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{A simple api to weather underground's api.}
+  spec.description   = %q{A simple class object to call weather underground's api with your developer key.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
