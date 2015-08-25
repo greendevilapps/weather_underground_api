@@ -20,9 +20,10 @@ Or install it yourself as:
 
     @wu = WeatherUndergroundApi::Base.new(API_KEY)
     @current_conditions = @wu.conditions(query_location)
-For all data attrs see: http://www.wunderground.com/weather/api/d/docs?d=data/conditions
+For all data attrs see: [data/conditions](http://www.wunderground.com/weather/api/d/docs?d=data/conditions)
 
 ## Contributing
 
 1. Fork it
 2. Donate
+3. [Visit weather underground](http://www.wunderground.com/?apiref=77eba12431a68f79)
