@@ -20,6 +20,9 @@ Or install it yourself as:
 
     @wu = WeatherUndergroundApi::Base.new(API_KEY)
     @current_conditions = @wu.conditions(query_location)
+    
+    $ @current_conditions['weather']
+    => 'Overcast'
 For all data attrs see: [data/conditions](http://www.wunderground.com/weather/api/d/docs?d=data/conditions)
 
 ## Contributing
