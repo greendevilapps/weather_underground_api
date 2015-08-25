@@ -136,7 +136,7 @@ module WeatherUndergroundApi
         end
 
         def api_url
-            WeatherUndergroundApi::API_URL
+            WeatherUndergroundApi::API_URL % @api_key
         end
 
         def url_settings
