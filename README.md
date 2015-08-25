@@ -1,6 +1,6 @@
 # WeatherUndergroundApi
 
-TODO: Write a gem description
+This is a simple class object that uses the Weather Underground API.
 
 ## Installation
 
@@ -10,7 +10,7 @@ Add this line to your application's Gemfile:
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
@@ -18,12 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    @wu = WeatherUndergroundApi::Base.new(API_KEY)
+    @current_conditions = @wu.conditions(query_location)
+For all data attrs see: http://www.wunderground.com/weather/api/d/docs?d=data/conditions
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/weather_underground_api/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1. Fork it
+2. Donate
