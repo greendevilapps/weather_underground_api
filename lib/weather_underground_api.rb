@@ -79,6 +79,7 @@ module WeatherUndergroundApi
         def extended_forecast(query)
             get_json("#{api_url}/forecast10day/q/#{parse_query(query)}.#{@options[:format]}")
         end
+        alias_method :forecast10day, :extended_forecast
 
         # http://www.wunderground.com/weather/api/d/docs?d=data/hourly
         def hourly(query)
@@ -98,15 +99,6 @@ module WeatherUndergroundApi
         end
 
         def radar_data_attrs(query, options = {}, escape = true)
-            # options ||= {}
-            # options.stringify_keys!.reverse_merge!(
-            #     'type'    => 'png',
-            #     'radius'  => '100',
-            #     'width'   => '300',
-            #     'height'  => '300',
-            #     'newmaps' => '1'
-            # )
-            # "data-radar-query-url='#{api_url}/radar/q/' data-radar-query='#{parse_query(query)}' data-radar-type='#{options.delete('type')}' data-radar-radius='#{options.delete('radius')}' data-radar-width='#{options.delete('width')}' data-radar-height='#{options.delete('height')}' data-radar-newmaps='#{options.delete('newmaps')}'".html_safe
             options ||= {}
             options.stringify_keys!.reverse_merge!(
                 'query-url' => "#{api_url}/radar/q/",
