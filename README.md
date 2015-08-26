@@ -120,7 +120,7 @@ Required options that you can pass into the `radar_url` function are:
 - height: Height of image in pixels (defaults: 300)
 - newmaps: Transparent image (default) or show basemap (defaults: 1)
 
-For all data attrs see: [data/forecast10day](http://www.wunderground.com/weather/api/d/docs?d=layers/radar&apiref=77eba12431a68f79)
+For all data attrs see: [data/radar](http://www.wunderground.com/weather/api/d/docs?d=layers/radar&apiref=77eba12431a68f79)
 
 Helper functions
 ----------------
