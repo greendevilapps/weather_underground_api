@@ -203,5 +203,5 @@ Contributing
 ------------
 
 1. Fork it
-2. [Donate](http://simpleweatherapp.herokuapp.com/about#donate)
+2. [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=MBZU6Y8KUWACC&lc=US&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
 3. [Visit weather underground](http://www.wunderground.com/?apiref=77eba12431a68f79)
