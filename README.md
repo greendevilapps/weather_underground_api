@@ -197,7 +197,7 @@ This will return a url string for the source of weather underground's api icon s
 To check out the icon-sets, click [here](http://www.wunderground.com/weather/api/d/docs?d=resources/icon-sets&apiref=77eba12431a68f79).
 
 _Note:_ The icon set that is provided by Weather Underground. These are sent as .gif's and typically don't scale well. 
-You might want to use a different icon set or use and icon font.
+You might want to use a different icon set or use an icon font.
 
 Contributing
 ------------
