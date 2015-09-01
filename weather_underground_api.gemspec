@@ -6,7 +6,7 @@ require 'weather_underground_api/version'
 Gem::Specification.new do |spec|
   spec.name          = "weather_underground_api"
   spec.version       = WeatherUndergroundApi::VERSION
-  spec.authors       = ["thestelz"]
+  spec.authors       = ["greendevilapps"]
   spec.email         = ["stelzera24@gmail.com"]
   spec.summary       = %q{A simple api to weather underground's api.}
   spec.description   = %q{A simple class object to call weather underground's api with your developer key.}
