@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["stelzera24@gmail.com"]
   spec.summary       = %q{A simple api to weather underground's api.}
   spec.description   = %q{A simple class object to call weather underground's api with your developer key.}
-  spec.homepage      = "https://simpleweatherapp.herokuapp.com/"
+  spec.homepage      = "https://bitbucket.org/greendevilapps/weather_underground_api/overview"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
