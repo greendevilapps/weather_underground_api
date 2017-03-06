@@ -34,15 +34,15 @@ Create a new class by passing in your api key
 
 Supported options:
 
-|Param|Default|Desc|
---------------------
-|`raise_errors`|`false`|If the api call fails, this will tell the method to raise an error or return that error.|
-|`raise_api_error`|`true`|If no key passed in during initialization, raise an error or ignore.|
-|`format`|`json`|Currently the only supported option is `json`.|
-|`lang`|`EN`|Language to be used.|
-|`pws`|`1`|Use personal weather stations for conditions.|
-|`bestfct`|`1`|Use Weather Underground Best Forecast for forecast.|
-|`icon_set`|`k`|The icon set to use. See [weather underground icon sets](http://www.wunderground.com/weather/api/d/docs?d=resources/icon-sets&apiref=77eba12431a68f79) for more details.|
+Param|Default|Desc
+-----|-------|------
+`raise_errors`|`false`|If the api call fails, this will tell the method to raise an error or return that error.
+`raise_api_error`|`true`|If no key passed in during initialization, raise an error or ignore.
+`format`|`json`|Currently the only supported option is `json`.
+`lang`|`EN`|Language to be used.
+`pws`|`1`|Use personal weather stations for conditions.
+`bestfct`|`1`|Use Weather Underground Best Forecast for forecast.
+`icon_set`|`k`|The icon set to use. See [weather underground icon sets](http://www.wunderground.com/weather/api/d/docs?d=resources/icon-sets&apiref=77eba12431a68f79) for more details.
     
 Supported features
 ------------------
