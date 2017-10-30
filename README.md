@@ -1,3 +1,5 @@
+__Project has moved to gitlab https://gitlab.com/greendevilapps/weather_underground_api__
+
 WeatherUndergroundApi
 =====================
 
